@@ -1,0 +1,133 @@
+body{
+    box-sizing: border-box;
+}
+/* Partie header */
+.header{
+    height: 7rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo{
+    margin: auto;
+    margin-left: 10%; 
+}
+
+.header__logo img{
+    height: 35px;
+}
+
+.header nav{
+    margin: auto;
+    margin-right: 10%;
+}
+
+.header__link{
+    text-decoration: none;
+    font-weight: 700;
+    color: black;
+    font-family: sans-serif;
+    margin-left: 1.5rem;
+    padding: 10px;
+    border: solid 2px #f2f5fe;
+    border-radius: 10px;
+}
+
+.header__link:hover{
+    border: solid 2px black;
+    
+}
+/* ------------- */
+
+/* Partie main */
+.main{
+    width: 50%;
+    padding-top: 3rem;
+    margin-bottom: 7rem;
+}
+
+.article{
+    width: 50%;
+    margin: auto;
+}
+
+.article__title{
+    font-size: 5rem;
+    font-family: sans-serif;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.article__p{
+    font-family: 'Cambria', 'Cochin', sans-serif;
+    font-size: 1.2rem;
+    color: rgb(29, 29, 29);
+    font-weight: 500;
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.article__button{
+    background-color: rgb(95, 32, 155);
+    padding: .7rem;
+    border: none;
+    border-radius: 10px;
+}
+
+.article__button a{
+    color: rgb(253, 255, 239);
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.article__button:hover{
+    transform: scale(1.01);
+    transition: 0.2s;
+}
+
+.article__img{
+    width: 63%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+/* ------------- */
+
+/* Partie footer */
+.footer ul{
+    display: flex;
+    justify-content: space-around;
+    width: 73vw;
+}
+
+.footer__li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__img{
+    height: 3rem;
+    margin-bottom: 1rem;
+}
+
+.footer__p{
+    font-weight: bold;
+    font-family: sans-serif;
+}
+/* ------------- */
+
+/* Div decorationCircle */
+.decoration-circle{
+    background-color: #feccc3;
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    z-index: -2;
+    bottom: 60px;
+    left: -45px;
+    border-radius: 50%;
+}
